@@ -1,5 +1,5 @@
 {
-    "name": "visualdialogue/mailchimp",
+    "name": "visualdialogue/kirby-mailchimp",
     "description": "Mailchimp footer field",
     "type": "kirby-plugin",
     "license": "MIT",
