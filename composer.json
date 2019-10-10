@@ -1,0 +1,15 @@
+{
+    "name": "visualdialogue/mailchimp",
+    "description": "Mailchimp footer field",
+    "type": "kirby-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luke Hatfield",
+            "email": "luke@visualdialogue.com"
+        }
+    ],
+    "require": {
+        "getkirby/composer-installer": "^1.1"
+    }
+}

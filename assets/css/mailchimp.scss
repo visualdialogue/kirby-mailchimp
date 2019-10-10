@@ -1,0 +1,43 @@
+.mailchimp-form-wrapper {
+    position: relative;
+    border: 1px solid $light-gray;
+    label {
+        // hide, but keep visible for screen readers, from https://stackoverflow.com/a/54184047/4504073
+        border: 0;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+    }
+    input[type="email"] {
+        width: 100%;
+        height: 100%;
+        @extend %xxs-sans-title;
+        background-color: transparent;
+        color: $light-gray;
+        padding: #{gutter() / 2};
+        @include break(sm) {
+            padding: #{gutter()};
+        }
+    }
+    input[type="submit"] {
+        height: 100%;
+        width: #{span(1 of 3) / 2};
+        background-image: url(/assets/svg/icons/mailplane.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: transparent;
+    }
+}
+.footer-newsletter-subscribe {
+    position: absolute;  
+    top: 0;
+    right: 0;
+    margin: 0;      
+    padding: 0;
+    border: 0;
+}
