@@ -7,7 +7,7 @@ This plugin uses the cleanest Mailchimp embed code (as of Oct 2019) to build a c
 ```
 composer require visualdialogue/kirby-mailchimp
 ```
-
+<!-- 
 ****
 
 ## Commerical Usage
@@ -17,7 +17,7 @@ This plugin is free but if you use it in a commercial project please consider to
 - [buy a Kirby license using this affiliate link](https://a.paddle.com/v2/click/1129/36141?link=1170)
 
 ****
-
+ -->
 
 ## Usage
 
