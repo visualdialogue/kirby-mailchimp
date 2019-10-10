@@ -11,7 +11,7 @@ namespace visualdialogue\Mailchimp;
     ],
 
     'snippets' => [
-        'mailchimp' => __DIR__ . '/src/snippets/mailchimp-form.php'
+        'mailchimp-form' => __DIR__ . '/src/snippets/mailchimp-form.php'
     ]
     
 ]);
