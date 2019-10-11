@@ -17,7 +17,7 @@
                 <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                 <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="<?= option('visualdialogue.mailchimp.botinputname') ?>" tabindex="-1" value=""></div>
                 
-                <input type="submit" value="" name="subscribe" id="mc-embedded-subscribe" class="button footer-newsletter-subscribe">
+                <input type="submit" value="&xrarr;" name="subscribe" id="mc-embedded-subscribe" class="button footer-newsletter-subscribe">
 
             </div>
         </form>
